@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background: navy;
+    padding: 20px;
+}
+
+.wrapper__line, .wrapper__line--column {
+    display: flex;
+}
+
+.block {
+    background: #000;
+    color: aliceblue;
+    margin: 20px;
+}
